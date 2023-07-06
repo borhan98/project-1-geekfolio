@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+/* ---------------------------------------- 
+                Header Start
+------------------------------------------*/
+nav {
+    background: #f9f9f9;
+    height: 80px;
+}
+nav .container .logo img {
+    width: 120px;
+}
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .container .menu ul {
+    display: flex;
+    list-style: none;
+    column-gap: 15px;
+}
+nav .container .menu ul li a {
+    text-decoration: none;
+    color: #161616;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: monospace;
+}
+/* ---------------------------------------- 
+                Header End
+------------------------------------------*/
+/* ---------------------------------------- 
+                Banner Section Start
+------------------------------------------*/
+.banner {
+    height: 100vh;
+    background: url(../images/background.png), linear-gradient(45deg, rgb(5, 5, 5), #161616);
+}
+.banner .banner_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner .banner_txt {
+    color: #f9f9f9;
+}
+.banner .banner_txt .title {
+    font-size: 54px;
+}
+.banner .banner_txt p {
+    margin: 25px 0;
+    font-size: 16px;
+}
+.banner .banner_txt a {
+    display: flex;align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 130px;
+    height: 40px;
+    background: #FF0000;
+    color: #f9f9f9;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: all 0.4s ease;
+}
+.banner .banner_txt a:hover {
+    background: #f9f9f9;
+    color: #FF0000;
+    letter-spacing: 1px;
+}
+.banner .banner_img img {
+    width: 300px;
+}
+/* ---------------------------------------- 
+                Banner Section End
+------------------------------------------*/
+/* ---------------------------------------- 
+                About us Section Start
+------------------------------------------*/
+.about {
+    padding: 50px 0;
+}
+.about .title {
+    color: #161616;
+    font-size: 46px;
+    text-align: center;
+    padding: 5px 0;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+.about .about_wrap {
+    display: flex;
+    justify-content: space-around;
+}
+.about .about_wrap .about_photo img {
+    width: 300px;
+}
+.about .about_wrap .about_txt h3 {
+    font-size: 26px;
+    color: #161616;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.about .about_wrap .about_txt p {
+    color: #161616;
+    font-size: 18px;
+}
+.about .about_wrap .about_txt a {
+    display: flex;align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    background: #FF0000;
+    color: #f9f9f9;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: all 0.4s ease;
+}
+.about .about_wrap .about_txt a:hover {
+    letter-spacing: 1px;
+}
+
+/* ---------------------------------------- 
+                About us Section End
+------------------------------------------*/
+/* ---------------------------------------- 
+                Service Section Start
+------------------------------------------*/
+.service {
+    padding: 50px 0;
+    background: url(../images/background.png), linear-gradient(45deg, rgb(5, 5, 5), #161616);
+    background-size: cover;
+}
+.service .title {
+    color: #f9f9f9;
+    font-size: 46px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 5px 0;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+.service .service_wrap {
+    display: flex;
+    justify-content: space-around;
+}
+.service .service_wrap .item {
+    width: 220px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background: #161616;
+    text-align: center;
+}
+.service .service_wrap .item img {
+    width: 70px;
+}
+.service .service_wrap .item h4 {
+    text-transform: capitalize;
+    font-size: 26px;
+    color: #f9f9f9;
+    font-weight: 600;
+}
+.service .service_wrap .item p {
+    color: #f9f9f9;
+    font-size: 16px;
+}
+.service .service_wrap .item a {
+    display: flex;align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+    height: 40px;
+    background: #FF0000;
+    color: #f9f9f9;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: all 0.4s ease;
+}
+.service .service_wrap .item a:hover {
+    background: #f9f9f9;
+    color: #FF0000;
+    letter-spacing: 1px;
+}
+/* ---------------------------------------- 
+                Service Section End
+------------------------------------------*/
