@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 .container {
     width: 90%;
     height: 100%;
     margin: 0 auto;
+}
+li {
+    list-style: none;
 }
 /* ---------------------------------------- 
                 Header Start
@@ -33,7 +38,6 @@ nav .container .menu ul li a {
     color: #161616;
     text-transform: uppercase;
     font-size: 18px;
-    font-family: monospace;
 }
 /* ---------------------------------------- 
                 Header End
@@ -197,4 +201,59 @@ nav .container .menu ul li a {
 }
 /* ---------------------------------------- 
                 Service Section End
+------------------------------------------*/
+/* ---------------------------------------- 
+                Footer Section Start
+------------------------------------------*/
+#footer {
+    padding: 130px 0 0;
+    background: #000000;
+    color: #f9f9f9;
+}
+.foot_info {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.foot_colum {
+    width: 23%;
+    padding: 10px;
+}
+.foot_colum .foot_logo img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+.foot_colum p {
+    font-size: 16px;
+    line-height: 30px;
+}
+.foot_colum .foot_title {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.foot_colum ul li {
+    margin-bottom: 10px;
+}
+.foot_colum ul li a {
+    color: #f9f9f9;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+.foot_colum ul li a:hover {
+    margin-left: 5px;
+}
+.foot_colum ul li i {
+    margin-right: 5px;
+}
+.copyright_info {
+    margin-top: 130px;
+    text-align: center;
+}
+.copyright_info small {
+    display: inline-block;
+    padding: 20px 0;
+}
+/* ---------------------------------------- 
+                Footer Section End
 ------------------------------------------*/
